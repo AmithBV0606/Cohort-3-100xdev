@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #313131; */
+    background: linear-gradient(90deg, rgba(11,6,22,1) 0%, rgba(11,6,22,1) 20%, rgba(98,96,102,1) 100%, rgba(98,96,102,1) 100%);
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+    background-color: #172131a8;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.logo h2 {
+    font-weight: 500;
+}
+
+.navElements {
+    display: flex;
+    list-style: none; 
+    gap: 30px;
+    font-weight: 500;
+    color: gray;
+} 
+
+.navElements li {
+    cursor: pointer;
+}
+
+.navElements li:hover {
+    color: white;
+}
+
+
+.second {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.themeBTN img {
+    height: 20px;
+    width: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.searchBar img {
+    height: 20px;
+    width: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.searchBar input {
+    border: none;
+    outline: none;
+    background-color: #313131;
+    color: white;
+}
+
+.downloadBTN button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0775db;
+    color: aliceblue;
+    border: none;
+}
+
+.downloadBTN button:hover {
+    background-color: #4b9fee;
+}
+
+.subHero {
+    text-align: center;
+}
+
+.subHero p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    word-spacing: 2px;
+}
+
+.subHero p a {
+    color: #0775db;
+}
+
+/* _____________________________________________________________________________ */
+
+.heroSection-2 {
+    display: flex;
+    justify-content: space-between;
+    padding:50px 100px;
+    /* background-color: antiquewhite; */
+}
+
+.leftPart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 100px;
+}
+
+.firstPara p {
+    background-color: #514e4e80;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline;
+}
+
+.mainPara h1 {
+    font-size: 60px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.mainBTN button {
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: #0775db;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(238, 232, 232);
+}
+
+.mainBTN button:hover {
+    background-color: #4b9fee;
+}
+
+.lastPara p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lastPara p a {
+    color: #0775db;
+}
+
+.lastPara p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.rightPart img {
+    width: 800px;
+    height: 550px;
+}
