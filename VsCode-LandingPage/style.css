@@ -74,19 +74,19 @@ body {
     border: 1px solid;
     padding: 7px;
     border-radius: 10px;
+    background-color: #172131a8;
 }
 
 .searchBar img {
     height: 20px;
     width: 20px;
-    color: black;
     cursor: pointer;
 }
 
 .searchBar input {
     border: none;
     outline: none;
-    background-color: #313131;
+    background-color: #172131a8;
     color: white;
 }
 
